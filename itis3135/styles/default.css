@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(105, 105, 105, 0.126);
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color:rgb(187, 159, 118);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    text-align: left;
+    margin:  40px 180px;
+}
+
+li {
+    padding: 10px;
+}
+
+.Nested {
+    margin: 0 0;
+}
+
+.Contract {
+    margin:  40px 180px;
+}
+
