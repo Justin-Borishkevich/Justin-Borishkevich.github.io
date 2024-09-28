@@ -1,7 +1,7 @@
 body {
-    background-color: rgba(105, 105, 105, 0.126);
+    background-color: #23272F;
     text-align: center;
-    color: blanchedalmond;
+    color: #E7DAE0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -39,5 +39,6 @@ li {
 
 .contract {
     margin:  40px 180px;
+    text-align: left;
 }
 
