@@ -5,6 +5,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+nav {
+    margin: 20px 0;
+}
+
 a {
     color:rgb(187, 159, 118);
     text-decoration: none;
