@@ -1,3 +1,12 @@
+html {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+}
+
 body {
     background-color: #23272F;
     text-align: center;
@@ -196,3 +205,42 @@ select, option {
     background-color: #282A2A;
     color: #E8EEF2;
 }
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+    html {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    html {
+        max-width: 980px;
+    }
+
+    ul {
+        margin:  40px 18px;
+    }
+
+    .contract {
+        margin:  40px 18px;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 600px) {
+    html {
+        max-width: 600px;
+        min-width: 370px;
+        overflow-x: auto;
+        font-size: 10px;
+    }
+    
+    ul {
+        margin:  40px 18px;
+    }
+
+    .contract {
+        margin:  40px 18px;
+    }
+}
+
+
