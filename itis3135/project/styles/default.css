@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Open sans', Parkinsans, sans-serif;
+    background-color: black;
+    color: #B8B8B8;
+    padding : 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+body {
+    margin : 0;
+    padding : 0;
+}
+
+h1 {
+    font-size : 2.5rem;
+    font-weight: 400;
+    color : white;
+    margin-top : 0;
+    margin-bottom : 10px;
+}
+
+header {
+    box-sizing: border-box;
+    padding : 10px;
+    padding-left: 30px; 
+    background-image: url(../images/header.jpg);
+    background-size: cover;    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #B8B8B8;
+    font-size: 1.2rem;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 20px;
+}
+
+footer {
+    box-sizing: border-box;
+    padding : 10px;
+    padding-top : 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url('../images/header.jpg');
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #B8B8B8;
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+}
+
+#designer a {
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+section {
+    height : 35vh;
+}
+
+#event-1.home  {
+    background-image: url('../images/goodnewsyouth-1.jpeg');
+    padding : 10px;
+    background-size: cover;
+    background-position: 0px -680px;
+}
+
+#register.home  {
+    background-image: url('../images/goodnewsyouth-3.jpeg');
+    padding : 10px;
+    background-size: cover;
+    background-position: 0px -800px;
+}
+
+#about.home {
+    background-image: url('../images/goodnewsyouth-2.jpeg');
+    padding : 10px;
+    background-size: cover;
+    background-position: -50px -940px;
+}

@@ -4,86 +4,89 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Justin Borishkevich Judicious Beaver || ITIS3135 Tables</title>
-        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <script src="scripts/navigation.js" defer></script>
         <link rel="stylesheet" href="styles/default.css">
     </head>
     <body>
-        <header>
-            <div data-include="components/header.html"></div>
+        <header id="header-container">
         </header>
         <main>
-            <h2>Tables</h2>
+            <h2 id="title">Tables</h2>
             <h3>My Tabular Data</h3>
             <ol>
-                <li>Sam Altman - SamAltman@BeaverLawInc.com</li>
-                <li>John Smith - JohnSmith@BeaverLawInc.com</li>
-                <li>Lorry Jane - LorryJane@BeaverLawInc.com</li>
-                <li>Bob Lobotomy - BobLobotomy@BeaverLawInc.com</li>
-                <li>Ringo Starter - RingoStarter@BeaverLawInc.com</li>
-                <li>Jimi Cartoon - JimiCartoon@BeaverLawInc.com</li>
-                <li>Gus Fring - GusFring@BeaverLawInc.com</li>
-                <li>Charlie Brow - CharlieBrow@BeaverLawInc.com</li>
-                <li>Elvis Parsley - ElvisParsley@BeaverLawInc.com</li>
-                <li>Karl jinx - Karljinx@BeaverLawInc.com</li>
+                <li>Sam Altman - SamAltman@BeaverLawInc.com - 10</li>
+                <li>John Smith - JohnSmith@BeaverLawInc.com - 5</li>
+                <li>Lorry Jane - LorryJane@BeaverLawInc.com - 2</li>
+                <li>Bob Lobotomy - BobLobotomy@BeaverLawInc.com - 6</li>
+                <li>Ringo Starter - RingoStarter@BeaverLawInc.com - 30</li>
+                <li>Jimi Cartoon - JimiCartoon@BeaverLawInc.com - 23</li>
+                <li>Gus Fring - GusFring@BeaverLawInc.com - 2</li>
+                <li>Charlie Brow - CharlieBrow@BeaverLawInc.com - 1</li>
+                <li>Elvis Parsley - ElvisParsley@BeaverLawInc.com - 23</li>
+                <li>Karl jinx - Karljinx@BeaverLawInc.com - 50</li>
             </ol>
 
             <h3>Employee Data in Simple Table</h3>
             <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Years of Service</th>
-                </tr>
-                <tr>
-                    <td>Sam Altman</td>
-                    <td>SamAltman@BeaverLawInc.com</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>John Smith</td>
-                    <td>JohnSmith@BeaverLawInc.com</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>Lorry Jane</td>
-                    <td>LorryJane@BeaverLawInc.com</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Bob Lobotomy</td>
-                    <td>BobLobotomy@BeaverLawInc.com</td>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td>Ringo Starter</td>
-                    <td>RingoStarter@BeaverLawInc.com</td>
-                    <td>30</td>
-                </tr>
-                <tr>
-                    <td>Jimi Cartoon</td>
-                    <td>JimiCartoon@BeaverLawInc.com</td>
-                    <td>23</td>
-                </tr>
-                <tr>
-                    <td>Gus Fring</td>
-                    <td>GusFring@BeaverLawInc.com</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Charlie Brow</td>
-                    <td>CharlieBrow@BeaverLawInc.com</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Elvis Parsley</td>
-                    <td>ElvisParsley@BeaverLawInc.com</td>
-                    <td>23</td>
-                </tr>
-                <tr>
-                    <td>Karl jinx</td>
-                    <td>Karljinx@BeaverLawInc.com</td>
-                    <td>50</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years of Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sam Altman</td>
+                        <td>SamAltman@BeaverLawInc.com</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>JohnSmith@BeaverLawInc.com</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Lorry Jane</td>
+                        <td>LorryJane@BeaverLawInc.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Lobotomy</td>
+                        <td>BobLobotomy@BeaverLawInc.com</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Ringo Starter</td>
+                        <td>RingoStarter@BeaverLawInc.com</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Jimi Cartoon</td>
+                        <td>JimiCartoon@BeaverLawInc.com</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Gus Fring</td>
+                        <td>GusFring@BeaverLawInc.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Charlie Brow</td>
+                        <td>CharlieBrow@BeaverLawInc.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Elvis Parsley</td>
+                        <td>ElvisParsley@BeaverLawInc.com</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Karl jinx</td>
+                        <td>Karljinx@BeaverLawInc.com</td>
+                        <td>50</td>
+                    </tr>
+                </tbody>
             </table>
 
             <h3>Employee Data in Complex Table</h3>
@@ -176,10 +179,8 @@
 
 
         </main>
-        <footer>
-            <div data-include="components/footer.html"></div>
+        <footer id="footer-container">
         </footer>
-        <script src="scripts/HTMLinclude.min.js"></script>
     </body>
 
 </html>
