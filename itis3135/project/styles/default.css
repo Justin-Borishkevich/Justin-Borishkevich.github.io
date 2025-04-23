@@ -31,17 +31,19 @@ header {
     box-sizing: border-box;
     padding : 10px;
     padding-left: 30px; 
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/header2.jpg);
     background-size: cover;    
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    border-bottom: 5px solid black;
+    z-index: 1000;
 }
 
 header a {
     text-decoration: none;
-    color: #B8B8B8;
+    color: #d7d6d6;
     font-size: 1.2rem;
 }
 
@@ -86,27 +88,39 @@ footer a:hover {
     color: white;
 }
 
-section {
-    height : 35vh;
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+    html {
+        max-width: 1200px;
+    }
 }
 
-#event-1.home  {
-    background-image: url('../images/goodnewsyouth-1.jpeg');
-    padding : 10px;
-    background-size: cover;
-    background-position: 0px -680px;
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    html {
+        max-width: 980px;
+    }
+
+    ul {
+        margin:  40px 18px;
+    }
+
+    .contract {
+        margin:  40px 18px;
+    }
 }
 
-#register.home  {
-    background-image: url('../images/goodnewsyouth-3.jpeg');
-    padding : 10px;
-    background-size: cover;
-    background-position: 0px -800px;
-}
+@media screen and (min-width: 370px) and (max-width: 600px) {
+    html {
+        max-width: 600px;
+        min-width: 370px;
+        overflow-x: auto;
+        font-size: 10px;
+    }
+    
+    ul {
+        margin:  40px 18px;
+    }
 
-#about.home {
-    background-image: url('../images/goodnewsyouth-2.jpeg');
-    padding : 10px;
-    background-size: cover;
-    background-position: -50px -940px;
+    .contract {
+        margin:  40px 18px;
+    }
 }
